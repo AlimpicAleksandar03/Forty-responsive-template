@@ -5,14 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      data-auto-replace-svg="nest"
+    ></script>
+    <title>Forty | HTML5 UP</title>
   </head>
   <body>
     <!-- WRAPPER -->
     <div class="wrapper">
       <!-- HEADER -->
       <div class="header">
-        <a href="#" class="logo">
+        <a href="#banner" class="logo">
           <strong>Forty</strong>
           <span>by html5 up</span>
         </a>
@@ -23,7 +27,7 @@
         </nav>
       </div>
       <!-- BANNER -->
-      <div class="banner">
+      <div class="banner" id="banner">
         <div class="inner">
           <div class="major">
             <h1>
@@ -34,7 +38,7 @@
             <p>
               A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
               <br />
-              AND RELEASED UNDER THE CREATIVE COMMONS
+              AND RELEASED UNDER THE CREATIVE COMMONS.
             </p>
             <ul class="actions">
               <li>
@@ -46,12 +50,13 @@
           </div>
         </div>
       </div>
+      <!-- MAIN -->
       <div class="main" id="main">
         <section class="tiles">
           <div class="tile">
             <header>
               <h3>
-                Tempus
+                Aliquam
               </h3>
               <p>
                 Ipsum dolor sit amet
@@ -64,14 +69,34 @@
                 Tempus
               </h3>
               <p>
-                Ipsum dolor sit amet
+                Feugiat amet tempus
               </p>
             </header>
           </div>
           <div class="tile">
             <header>
               <h3>
-                Tempus
+                Magna
+              </h3>
+              <p>
+                Lorem etiam nullam
+              </p>
+            </header>
+          </div>
+          <div class="tile">
+            <header>
+              <h3>
+                Ipsum
+              </h3>
+              <p>
+                Nisl sed aliquam
+              </p>
+            </header>
+          </div>
+          <div class="tile">
+            <header>
+              <h3>
+                Consequat
               </h3>
               <p>
                 Ipsum dolor sit amet
@@ -81,30 +106,10 @@
           <div class="tile">
             <header>
               <h3>
-                Tempus
+                Etiam
               </h3>
               <p>
-                Ipsum dolor sit amet
-              </p>
-            </header>
-          </div>
-          <div class="tile">
-            <header>
-              <h3>
-                Tempus
-              </h3>
-              <p>
-                Ipsum dolor sit amet
-              </p>
-            </header>
-          </div>
-          <div class="tile">
-            <header>
-              <h3>
-                Tempus
-              </h3>
-              <p>
-                Ipsum dolor sit amet
+                Feugiat amet tempus
               </p>
             </header>
           </div>
@@ -133,35 +138,121 @@
           </div>
         </section>
       </div>
+      <!-- CONTACT -->
       <section class="contact" id="contact">
         <div class="inner">
-          <section>
+          <section class="form-wrapper">
             <form action="#">
               <div class="fields">
                 <div class="field-half">
                   <label for="name">Name</label>
-                  <input type="text" id="name">
+                  <input type="text" id="name" />
                 </div>
                 <div class="field-half">
                   <label for="email">Email</label>
-                  <input type="email">
+                  <input type="email" />
                 </div>
-                <div class="field"></div>
+                <div class="field">
+                  <label for="message">Message</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    rows="6"
+                    style="resize: none;"
+                  ></textarea>
+                </div>
               </div>
               <ul class="actions">
                 <li>
-                  <input type="submit" value="Send Message">
+                  <input type="submit" value="Send Message" />
                 </li>
                 <li>
-                  <input type="reset" value="Clear">
-                </li> 
+                  <input type="reset" value="Clear" />
+                </li>
               </ul>
             </form>
           </section>
-          <section></section>
+          <section class="split">
+            <section>
+              <div class="contact-method">
+                <span class="icon">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <h3>Email</h3>
+                <a href="#">information@untitled.tld</a>
+              </div>
+            </section>
+            <section>
+              <div class="contact-method">
+                <span class="icon">
+                  <i class="fas fa-phone"></i>
+                </span>
+                <h3>Phone</h3>
+                <span>(000) 000-0000 x12387</span>
+              </div>
+            </section>
+            <section>
+              <div class="contact-method">
+                <span class="icon">
+                  <i class="fas fa-home"></i>
+                </span>
+                <h3>Address</h3>
+                <span>
+                  1234 Somewhere Road #5432
+                  <br />
+                  Nashville, TN 00000
+                  <br />
+                  United States of America
+                </span>
+              </div>
+            </section>
+          </section>
         </div>
-
       </section>
+      <footer class="footer">
+        <div class="inner">
+          <ul class="icons">
+            <li>
+              <div class="icon">
+                <i class="fab fa-twitter"></i>
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <i class="fab fa-instagram"></i>
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <i class="fab fa-github"></i>
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+            </li>
+          </ul>
+          <ul class="copyright">
+            <li>
+              &copy; Untitled
+            </li>
+            <li>
+              Design:
+              <a href="#">HTML5 UP</a>
+            </li>
+            <li>
+              Demo Images:
+              <a href="#">Unsplash</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

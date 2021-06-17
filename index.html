@@ -21,7 +21,7 @@
           <span>by html5 up</span>
         </a>
         <nav>
-          <a href="#">
+          <a href="#banner" class="trigger">
             Menu
           </a>
         </nav>
@@ -260,5 +260,32 @@
         </div>
       </footer>
     </div>
+    <div class="menu" id="menu">
+      <div class="inner">
+        <ul class="links">
+          <li>
+            <a href="generic.html">Landing</a>
+          </li>
+          <li>
+            <a href="generic.html">Landing</a>
+          </li>
+          <li>
+            <a href="generic.html">Landing</a>
+          </li>
+          <li>
+            <a href="generic.html">Landing</a>
+          </li>
+        </ul>
+      </div>
+      <a href="" class="close"></a>
+    </div>
+    <script>
+      const trigger = document.querySelector('.trigger')
+      const body = document.querySelector('body')
+      trigger.addEventListener('click', toggle)
+      function toggle() {
+        body.classList.toggle('is-menu-visible')
+      }
+    </script>
   </body>
 </html>

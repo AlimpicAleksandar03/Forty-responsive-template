@@ -953,6 +953,45 @@ ul.actions input[type='reset']:hover {
   transition: all 0.2s ease-in-out;
 }
 
+.menu .inner .actions {
+  display: block;
+}
+
+.menu .inner .actions li {
+  width: 100%;
+}
+
+.menu .inner .actions li:last-child {
+  padding-top: 1.3em;
+}
+
+.menu .inner .actions li .button {
+  width: 100%;
+  padding: 0 1.75em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu .inner .actions li .button.primary-color {
+  background-color: #ffffff;
+  box-shadow: none;
+  color: #242943;
+}
+
+.menu .inner .actions li .button.primary-color:hover {
+  background-color: #9bf1ff;
+  color: #242943 !important;
+}
+
+.menu .inner .actions li .button:not(.primary-color):hover {
+  color: #9bf1ff;
+}
+
+.menu .inner .actions li .button::before,
+.menu .inner .actions li .button::after {
+  content: none;
+}
+
 /* LANDING PAGE */
 .banner.style2 {
   height: 60vh;

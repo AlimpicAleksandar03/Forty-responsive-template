@@ -14,7 +14,7 @@ input,
 select,
 textarea {
   color: #fff;
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 17pt;
   font-weight: 300;
   letter-spacing: 0.025em;
@@ -96,7 +96,7 @@ ul {
 
 .header nav a::after,
 .header nav a::before {
-  content: '';
+  content: "";
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='32' viewBox='0 0 24 32' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 2px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='11' x2='24' y2='11' /%3E%3Cline x1='0' y1='21' x2='24' y2='21' /%3E%3Cline x1='0' y1='16' x2='24' y2='16' /%3E%3C/svg%3E");
   color: #fff;
   position: absolute;
@@ -127,7 +127,7 @@ ul {
   padding: 6em 0 2em 0;
   display: flex;
   align-items: center;
-  background-image: url('./images/fabrizio-conti-kXVogATbFgA-unsplash.jpg');
+  background-image: url("./images/fabrizio-conti-kXVogATbFgA-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -135,7 +135,7 @@ ul {
 }
 
 .banner::after {
-  content: '';
+  content: "";
   background-color: #242943;
   display: block;
   height: 100%;
@@ -166,7 +166,7 @@ ul {
 }
 
 .banner h1::after {
-  content: '';
+  content: "";
   background-color: #ffffff;
   display: block;
   height: 2px;
@@ -223,7 +223,7 @@ ul.actions li .button {
 
 ul.actions li .button::after,
 ul.actions li .button::before {
-  content: '';
+  content: "";
   height: 100%;
   position: absolute;
   right: 1.5em;
@@ -288,31 +288,31 @@ ul.actions li .button:hover {
 }
 
 .tiles .tile:first-child {
-  background-image: url('./images/tom-winckels-I7oLRdM9YIw-unsplash.jpg');
+  background-image: url("./images/tom-winckels-I7oLRdM9YIw-unsplash.jpg");
 }
 
 .tiles .tile:nth-child(2) {
-  background-image: url('./images/greg-rosenke-mBCsft4274I-unsplash.jpg');
+  background-image: url("./images/greg-rosenke-mBCsft4274I-unsplash.jpg");
 }
 
 .tiles .tile:nth-child(3) {
-  background-image: url('./images/marina-YmQ0-nmWcV0-unsplash.jpg');
+  background-image: url("./images/marina-YmQ0-nmWcV0-unsplash.jpg");
 }
 
 .tiles .tile:nth-child(4) {
-  background-image: url('./images/sergey-shmidt-koy6FlCCy5s-unsplash.jpg');
+  background-image: url("./images/sergey-shmidt-koy6FlCCy5s-unsplash.jpg");
 }
 
 .tiles .tile:nth-child(5) {
-  background-image: url('./images/sid-balachandran-_9a-3NO5KJE-unsplash.jpg');
+  background-image: url("./images/sid-balachandran-_9a-3NO5KJE-unsplash.jpg");
 }
 
 .tiles .tile:nth-child(6) {
-  background-image: url('./images/ekamelev-Adpsgy4JFIE-unsplash.jpg');
+  background-image: url("./images/ekamelev-Adpsgy4JFIE-unsplash.jpg");
 }
 
 .tiles .tile::before {
-  content: '';
+  content: "";
   height: 100%;
   width: 100%;
   position: absolute;
@@ -364,7 +364,7 @@ ul.actions li .button:hover {
 }
 
 .tile header h3::after {
-  content: '';
+  content: "";
   background-color: #ffffff;
   display: block;
   height: 2px;
@@ -398,7 +398,7 @@ ul.actions li .button:hover {
 }
 
 .main > section .inner header h2::after {
-  content: '';
+  content: "";
   background-color: #ffffff;
   display: block;
   height: 2px;
@@ -485,8 +485,8 @@ ul.actions li .button:hover {
   width: 100%;
 }
 
-ul.actions input[type='submit'],
-ul.actions input[type='reset'] {
+ul.actions input[type="submit"],
+ul.actions input[type="reset"] {
   height: 3.5em;
   padding: 0 1.75em;
   text-align: center;
@@ -504,26 +504,26 @@ ul.actions input[type='reset'] {
   white-space: nowrap;
 }
 
-ul.actions input[type='submit'] {
+ul.actions input[type="submit"] {
   background-color: #fff;
   color: #242943;
 }
 
-ul.actions input[type='reset'] {
+ul.actions input[type="reset"] {
   box-shadow: inset 0 0 0 2px #ffffff;
   color: #ffffff;
 }
 
-ul.actions input[type='submit']:active,
-ul.actions input[type='submit']:focus {
+ul.actions input[type="submit"]:active,
+ul.actions input[type="submit"]:focus {
   background-color: #53e3fb;
 }
 
-ul.actions input[type='submit']:hover {
+ul.actions input[type="submit"]:hover {
   background-color: #9bf1ff;
 }
 
-ul.actions input[type='reset']:hover {
+ul.actions input[type="reset"]:hover {
   box-shadow: inset 0 0 0 2px #9bf1ff;
   color: #9bf1ff;
 }
@@ -574,7 +574,7 @@ ul.actions input[type='reset']:hover {
 
 .contact .split section::before {
   border-top: solid 1px rgba(212, 212, 255, 0.1);
-  content: '';
+  content: "";
   display: block;
   margin-left: -3em;
   position: absolute;
@@ -936,6 +936,36 @@ ul.actions input[type='reset']:hover {
   color: #9bf1ff !important;
 }
 
+.menu .close {
+  padding: 10px;
+  position: absolute;
+  top: 1.25em;
+  right: 1.25em;
+}
+
+.menu .close:hover::after,
+.menu .close:hover::before {
+  background: #9bf1ff;
+}
+
+.menu .close::before,
+.menu .close::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 25px;
+  background: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu .close::before {
+  transform: translateY(1px) rotate(45deg);
+}
+
+.menu .close::after {
+  transform: translateY(-1px) rotate(-45deg);
+}
+
 .is-menu-visible .menu {
   pointer-events: auto;
   opacity: 1;
@@ -997,7 +1027,7 @@ ul.actions input[type='reset']:hover {
   height: 60vh;
   max-height: 32em;
   min-height: 22em;
-  background-image: url('./images/jr-korpa-yhWkR8yF0tk-unsplash.jpg');
+  background-image: url("./images/jr-korpa-yhWkR8yF0tk-unsplash.jpg");
   background-position: center;
 }
 
@@ -1066,7 +1096,7 @@ ul.actions input[type='reset']:hover {
 }
 
 .spotlights > section .content .inner header h3::after {
-  content: '';
+  content: "";
   width: 100%;
   height: 2px;
   background: #fff;
@@ -1132,7 +1162,7 @@ ul.actions input[type='reset']:hover {
 }
 
 .main .inner header h1::after {
-  content: '';
+  content: "";
   background-color: #ffffff;
   display: block;
   height: 2px;
@@ -1500,8 +1530,8 @@ ul.actions input[type='reset']:hover {
   padding-top: 2em;
 }
 
-.elements-wrapper .main > section .inner .row.form .col-6 input[type='text'],
-.elements-wrapper .main > section .inner .row.form .col-6 input[type='email'],
+.elements-wrapper .main > section .inner .row.form .col-6 input[type="text"],
+.elements-wrapper .main > section .inner .row.form .col-6 input[type="email"],
 .elements-wrapper .main > section .inner .row.form .col-12 select {
   height: 2.75em;
   background: rgba(212, 212, 255, 0.035);
@@ -1521,14 +1551,14 @@ ul.actions input[type='reset']:hover {
   .inner
   .row.form
   .col-6
-  input[type='text']:focus,
+  input[type="text"]:focus,
 .elements-wrapper
   .main
   > section
   .inner
   .row.form
   .col-6
-  input[type='email']:focus,
+  input[type="email"]:focus,
 .elements-wrapper .main > section .inner .row.form .col-12 select:focus {
   border-color: #9bf1ff;
   box-shadow: 0 0 0 2px #9bf1ff;
@@ -1548,8 +1578,8 @@ ul.actions input[type='reset']:hover {
   font-weight: normal;
 }
 
-.elements-wrapper .main > section .inner .row .col-4 input[type='radio'],
-.elements-wrapper .main > section .inner .row .col-4 input[type='checkbox'] {
+.elements-wrapper .main > section .inner .row .col-4 input[type="radio"],
+.elements-wrapper .main > section .inner .row .col-4 input[type="checkbox"] {
   height: 1em;
   width: 1em;
   float: left;
@@ -1636,14 +1666,14 @@ textarea:focus {
 
 code {
   background: rgba(212, 212, 255, 0.035);
-  font-family: 'Courier New', monospace;
+  font-family: "Courier New", monospace;
   font-size: 0.9em;
   margin: 0 0.25em;
   padding: 0.25em 0.65em;
 }
 
 pre {
-  font-family: 'Courier New', monospace;
+  font-family: "Courier New", monospace;
   font-size: 0.9em;
 }
 
